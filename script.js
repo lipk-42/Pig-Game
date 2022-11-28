@@ -75,7 +75,6 @@ btnHold.addEventListener('click', function() {
         activePlayer === 0 ? player0El.classList.add('player--winner') : player1El.classList.add('player--winner'); 
         playing = false;
         diceEl.src = "winner.gif";
-        diceEl.classList.add('hidden');
     } else
     switchPlayer();
 });
